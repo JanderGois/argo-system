@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/23 20:00:13.000.704,=C:\Users\Jander Gois\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/04/23 22:10:04.000.320,C:\Users\Jander Gois\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Jander Gois\Desktop\AgoSys\UnitLogin.pas</Transaction>
+    <Transaction>2022/04/23 22:10:04.000.320,C:\Users\Jander Gois\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Jander Gois\Desktop\AgoSys\UnitLogin.dfm</Transaction>
+    <Transaction>2022/04/23 22:10:29.000.980,C:\Users\Jander Gois\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Jander Gois\Desktop\AgoSys\ArgoSys_Project.dproj</Transaction>
+    <Transaction>2022/04/24 17:01:44.687,=C:\Users\Jander Gois\Desktop\ArgoSys\Unit1.pas</Transaction>
+    <Transaction>2022/04/24 17:08:16.813,=C:\Users\Jander Gois\Desktop\ArgoSys\Unit2.pas</Transaction>
+    <Transaction>2022/04/24 17:12:22.943,C:\Users\Jander Gois\Desktop\ArgoSys\UntWarn.dfm=C:\Users\Jander Gois\Desktop\ArgoSys\Unit2.dfm</Transaction>
+    <Transaction>2022/04/24 17:12:22.943,C:\Users\Jander Gois\Desktop\ArgoSys\UntWarn.pas=C:\Users\Jander Gois\Desktop\ArgoSys\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>
