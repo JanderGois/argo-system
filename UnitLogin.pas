@@ -47,9 +47,36 @@ Application.Terminate;
 end;
 
 procedure TForm1.Panel4Click(Sender: TObject);
+
+var
+  username:String;
+  password:String;
+  unkmsg:Boolean;
+  chklen:Boolean;
+
 begin
+
+  username:= 'admin';
+  password := 'root';
+  //Verifica se os campos(Edit1, Edit2) estão vazios
   if Edit1.GetTextLen < 1 then
-    ShowMessage('Alguns campos se encontram vazios!');
+    begin
+      ShowMessage('Alguns campos se encontram vazios!');
+      unkmsg:=false;
+      chklen:=true;
+    end;
+
+  //Verifica conteúdo dos campos(Edit1, Edit2)
+  if (Edit1.Text='admin') and (Edit2.Text='root') then
+    ShowMessage('Welcome!! ' + Edit1.Text)
+  else
+    unkmsg:=true;
+
+  //Verifica se os campos(Edit1, Edit2) não retornaram vazios(chk=true) e então
+  //exibe mensagem de credenciais
+  if (unkmsg=true) and (chklen=false) then
+    ShowMessage('Unknow Credentials!!');
+
 end;
 
 end.
